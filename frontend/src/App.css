@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background-color: black;
+  color: white; /* Optional: Set text color to white for better readability */
+  min-height: 100vh; /* Optional: Ensure the background covers the entire viewport height */
+  display: flex; /* Optional: Center content if needed */
+  flex-direction: column; /* Optional: Adjust content layout */
 }
 
 .App-logo {
