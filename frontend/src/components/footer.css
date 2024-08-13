@@ -1,0 +1,13 @@
+/* footer comp css */
+.custom-footer {
+  background-color: #122231; /* Bootstrap primary color */
+  color: #ffffff; /* White text color */
+}
+
+.custom-footer a {
+  color: #ffffff; /* Ensure links are white */
+}
+
+.custom-footer a:hover {
+  color: #d1cd64; /* Light grey on hover */
+}

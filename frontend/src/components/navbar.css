@@ -1,0 +1,8 @@
+/* Nav bar comp css */
+.navbar {
+  background-color: #122231 !important;
+}
+
+.navbar a:hover {
+  color: #d1cd64 !important;
+}
