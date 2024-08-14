@@ -32,7 +32,7 @@ function footer() {
           </div>
         </div>
         <div className="text-center mt-3">
-          <p className="mb-0">&copy; {new Date().getFullYear()} Hotel - Dev. All rights reserved.</p>
+          <p className="mb-0">&copy; {new Date().getFullYear()} Dunal Pasindu. All rights reserved.</p>
         </div>
       </div>
     </footer>
