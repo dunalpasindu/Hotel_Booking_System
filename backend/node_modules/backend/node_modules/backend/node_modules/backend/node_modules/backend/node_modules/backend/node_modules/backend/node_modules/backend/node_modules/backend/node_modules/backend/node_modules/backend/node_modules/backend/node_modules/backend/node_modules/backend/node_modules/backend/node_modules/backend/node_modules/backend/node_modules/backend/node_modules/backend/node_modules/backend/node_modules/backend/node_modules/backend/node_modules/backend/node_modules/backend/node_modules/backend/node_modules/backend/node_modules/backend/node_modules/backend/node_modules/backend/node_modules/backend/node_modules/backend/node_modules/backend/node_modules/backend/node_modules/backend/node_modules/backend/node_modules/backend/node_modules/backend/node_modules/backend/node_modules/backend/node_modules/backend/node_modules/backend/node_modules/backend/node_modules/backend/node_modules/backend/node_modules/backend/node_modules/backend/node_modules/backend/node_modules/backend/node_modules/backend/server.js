@@ -1,10 +1,13 @@
-// backend/server.js
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
+const connectDB = require('./config'); //import db connection fun. from config.js
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5005;
+
+
+connectDB(); //call db connection fun. from config.js
 
 // Middleware
 app.use(cors());
@@ -17,7 +20,6 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  console.log("Your Backend is UP..");  
   console.log(`Server running on port ${port}`);
-  console.log(`try this link to Backend = http://localhost:${port}`);
+  console.log(`Your Backend is UP..  Link = http://localhost:${port}`);
 });
