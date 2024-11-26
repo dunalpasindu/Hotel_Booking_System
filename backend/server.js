@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get('/', (req, res) => {
-  res.send('Hello! Your Backend is UP..');
+  res.send('<h2>Hello! Your Backend is UP..</h2>');
 });
 
 // Start server
