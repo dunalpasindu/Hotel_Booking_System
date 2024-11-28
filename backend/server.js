@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 const connectDB = require('./config'); //import db connection fun. from config.js
+const logger = require('./utils/logger'); //import custom logger
 
 const app = express();
 const port = process.env.PORT || 5005;
@@ -20,6 +21,9 @@ app.get('/', (req, res) => {
 
 // Start server
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-  console.log(`Your Backend is UP..  Link = http://localhost:${port}`);
+  logger.info(`Backend Server running on port ${port}`); //custom logger
+  console.log(`Backend Server running on port ${port}`); //default logger
+  // logger.error('Error message..');
+  // logger.warn('Warning message..');
+  
 });

@@ -1,4 +1,6 @@
+const logger = require('./utils/logger'); //import custom logger
 const mongoose = require('mongoose');
+const port = process.env.PORT || 5005;
 
 const connectDB = async () => {
   try {
@@ -6,9 +8,10 @@ const connectDB = async () => {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
-    console.log('MongoDB connection SUCCESS..');    
+    logger.info('MongoDB connection SUCCESS..'); 
+    logger.info(`Your Backend is UP..  Link = http://localhost:${port}`);    
   } catch (error) {
-    console.error('MongoDB connection FAIL..!!', error);
+    logger.error(`MongoDB connection FAILED..!!  |  >>> ${error.message}`); //this uses `` and not ''
     process.exit(1);
   }
 }

@@ -114,7 +114,7 @@ const navbar = () => {
                 Search
               </button>
             </form>
-            <button className="btn btn-warning" type="submit">
+            <button className="btn btn-warning ms-2" type="submit">
               Book Now
             </button>
           </div>
