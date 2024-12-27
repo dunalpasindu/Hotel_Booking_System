@@ -4,7 +4,7 @@ require('dotenv').config();
 const connectDB = require('./config'); //import db connection fun. from config.js
 const logger = require('./utils/logger'); //import custom logger
 
-const roomsRoute = require('./routes/roomsRoute');
+const roomsRoutes = require('./routes/roomsRoutes');
 
 const app = express();
 const port = process.env.PORT || 5005;
@@ -20,7 +20,7 @@ app.use(express.json());
 app.get('/', (req, res) => {
   res.send('<h2>Hello! Your Backend is UP..</h2>');
 });
-app.use('/rooms', roomsRoute);
+app.use('/rooms', roomsRoutes);
 
 
 // Start server

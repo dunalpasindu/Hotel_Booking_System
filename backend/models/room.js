@@ -1,6 +1,6 @@
-const { Mongoose } = require("mongoose");
+const mongoose = require("mongoose");
 
-const roomSchema = new Mongoose.Schema(
+const roomSchema = new mongoose.Schema(
   {
     name: {
       type: String,
@@ -38,6 +38,6 @@ const roomSchema = new Mongoose.Schema(
   }
 );
 
-const Room = Mongoose.model("rooms", roomSchema);
+const Room = mongoose.model("rooms", roomSchema);
 
 module.exports = Room;
