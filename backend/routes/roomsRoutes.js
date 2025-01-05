@@ -15,7 +15,7 @@ router.delete('/deleteRoom/:id', roomController.deleteRoom);
 
 //Get room by id
 router.get('/getRoom/:id', roomController.getRoomById);
-
+ 
 
 
 module.exports = router;

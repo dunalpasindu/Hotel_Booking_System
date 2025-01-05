@@ -6,7 +6,7 @@ const navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/#">
             Hotel - Dev
           </a>
           <button
@@ -23,7 +23,7 @@ const navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="#">
+                <a className="nav-link active" aria-current="page" href="/#">
                   Home
                 </a>
               </li>
@@ -77,12 +77,12 @@ const navbar = () => {
                 </a>
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/gallery">
                       Gallery
                     </a>
                   </li>
                   <li>
-                    <a className="dropdown-item" href="#">
+                    <a className="dropdown-item" href="/our-story">
                       Our Story
                     </a>
                   </li>
@@ -98,7 +98,7 @@ const navbar = () => {
               </li>
 
               <li className="nav-item">
-                <a className="nav-link active" href="#">
+                <a className="nav-link active" href="/contact">
                   Contact Us
                 </a>
               </li>

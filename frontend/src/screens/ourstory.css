@@ -1,0 +1,12 @@
+.our-story-hero-section {
+    background: url('https://via.placeholder.com/1920x600') center/cover no-repeat;
+  }
+  
+  .animate__delay-1s {
+    animation-delay: 1s;
+  }
+  
+  .animate__delay-2s {
+    animation-delay: 2s;
+  }
+  
