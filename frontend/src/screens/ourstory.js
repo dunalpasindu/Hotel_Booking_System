@@ -22,7 +22,7 @@ const OurStory = () => {
           <div className="row">
             <div className="col-md-6 order-md-1">
               <img
-                src="https://via.placeholder.com/500x300"
+                src="https://images.pexels.com/photos/14203302/pexels-photo-14203302.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Our Story"
                 className="img-fluid rounded shadow-lg animate__animated animate__zoomIn"
               />

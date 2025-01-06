@@ -16,12 +16,12 @@ function footer() {
           <div className="col-md-4">
             <h5>Quick Links</h5>
             <ul className="list-unstyled">
-              <li><a href="#">Home</a></li>
+              <li><a href="/#">Home</a></li>
               <li><a href="#">Accommodation</a></li>
-              <li><a href="#">Dining</a></li>
-              <li><a href="#">Wedding & Events</a></li>
-              <li><a href="#">Offers</a></li>
-              <li><a href="#">Contact Us</a></li>
+              <li><a href="/dining">Dining</a></li>
+              <li><a href="/wedding-events">Wedding & Events</a></li>
+              <li><a href="/offers">Offers</a></li>
+              <li><a href="/contact">Contact Us</a></li>
             </ul>
           </div>
           <div className="col-md-4">
