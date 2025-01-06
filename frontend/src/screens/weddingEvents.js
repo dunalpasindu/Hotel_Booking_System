@@ -1,5 +1,5 @@
 import React from 'react';
-import './WeddingEvents.css'; // Optional custom CSS
+// import './WeddingEvents.css'; // Optional custom CSS
 
 const WeddingEvents = () => {
   return (

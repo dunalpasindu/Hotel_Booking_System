@@ -1,5 +1,5 @@
 import React from 'react';
-import './Dining.css'; // Optional custom CSS
+// import './Dining.css'; // Optional custom CSS
 
 const Dining = () => {
   return (

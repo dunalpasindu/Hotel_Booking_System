@@ -1,5 +1,5 @@
 import React from 'react';
-import './Suites.css'; // Optional custom CSS
+// import './Suites.css'; // Optional custom CSS
 
 const Suites = () => {
   return (

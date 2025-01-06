@@ -1,5 +1,5 @@
 import React from 'react';
-import './Rooms.css'; // Optional custom CSS
+// import './Rooms.css'; // Optional custom CSS
 
 const Rooms = () => {
   return (
