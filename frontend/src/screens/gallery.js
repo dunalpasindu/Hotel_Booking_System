@@ -34,7 +34,7 @@ const Gallery = () => {
             <div className="col-md-4 col-sm-6">
               <div className="gallery-item animate__animated animate__zoomIn animate__delay-1.5s">
                 <img src="https://images.pexels.com/photos/2105327/pexels-photo-2105327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="img-fluid" alt="Gallery Image 3" />
-              </div>
+              </div> 
             </div>
             {/* Image 4 */}
             <div className="col-md-4 col-sm-6">
