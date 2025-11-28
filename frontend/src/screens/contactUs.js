@@ -29,7 +29,7 @@ const ContactUs = () => {
               {/* Google Map */}
               <div className="map-container">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.35870271342!2d-74.00601522550824!3d40.71277617963539!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDAyJzM1LjIiTiA3NMKwMDInNTkuNiJX!5e0!3m2!1sen!2sus!4v1618540289382!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4656.331673879797!2d-115.81773359257218!3d37.23764526120056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80b81baaba3e8c81%3A0x970427e38e6237ae!2sArea%2051%2C%20NV%2C%20USA!5e1!3m2!1sen!2slk!4v1739444679376!5m2!1sen!2slk"
                   width="100%"
                   height="400"
                   allowFullScreen=""
